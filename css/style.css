@@ -44,11 +44,46 @@
   font-style: normal;
 } */
 
+a {
+  text-decoration: none;
+  color: #F1E08D;
+  font-family: "Ovo", serif;
+ }
+
+
+/* BUTTONS */
+.btn {
+
+}
+
+
+
 /*************************************************
     HEADER
  *************************************************/
+header {
+    height: 70px;
+    background-color: #171717;
+    color: #F1E08D;
+    font-family: "Ovo", serif;
+}
 
   /* NAVBAR */
+
+  .nav-container {
+    margin: 0 auto;
+    width: 80%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+ .nav-container ul {
+  display: flex;
+  list-style: none;
+  gap: 60px;
+ }
 
 
 
@@ -60,7 +95,7 @@
 
  /* MENU SECTION */
 
- 
+
 
  /* DINE WITH US (BOOK TABLE SECTION) */
 

@@ -44,6 +44,17 @@
   font-style: normal;
 } */
 
+h1 {
+  font-family: "Ovo", serif;
+  font-size: 60px;
+}
+
+.payoff {
+  font-family: "Corinthia", cursive;
+  font-size: 20px;
+  margin-top: 8px;
+} 
+
 a {
   text-decoration: none;
   color: #F1E08D;
@@ -62,10 +73,14 @@ a {
     HEADER
  *************************************************/
 header {
+    margin: 0 auto;
     height: 70px;
     background-color: #171717;
     color: #F1E08D;
     font-family: "Ovo", serif;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
 }
 
   /* NAVBAR */
@@ -86,12 +101,44 @@ header {
  }
 
 
-
-
-
 /*************************************************
     MAIN
  *************************************************/
+.page-elements-container {
+  width: 70%;
+
+  /* debug */
+  height: 300px;
+}
+ /* HERO SECTION */
+.hero-section {
+  /* debug */
+  height: 700px;
+  background-image: url(../img/B-hero.jpg);
+  background-size: cover;
+  background-position: center;
+
+  padding-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.restaurant-name-and-payoff {
+  /* debug */
+  height: 100px;
+  background-color: cornflowerblue;
+  
+  margin-bottom: 100px;
+  
+}
+
+.working-hours {
+  /* debug */
+  height: 100px;
+  background-color: rgb(151, 112, 235);
+}
 
  /* MENU SECTION */
 

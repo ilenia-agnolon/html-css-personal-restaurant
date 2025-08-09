@@ -76,9 +76,9 @@ a {
 /* BUTTONS */
 .btn {
   border: 1px solid rgb(184, 151, 48);
-  padding: 10px 20px;
-  border-radius: 30px;
-  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 50px;
+  font-size: 16px;
 }
 
 
@@ -89,10 +89,10 @@ a {
 header {
     margin: 0 auto;
     height: 70px;
-    background-color: #171717;
+    background-color: rgba(0, 0, 0, 0.8);
     color: rgb(184, 151, 48);
     font-family: "Ovo", serif;
-    font-size: 14px;
+    font-size: 16px;
     width: 100%;
     position: fixed;
     z-index: 1000;
@@ -103,16 +103,23 @@ header {
   .nav-container {
     margin: 0 auto;
     width: 80%;
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
 
  .nav-container ul {
   display: flex;
   list-style: none;
-  gap: 60px;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+ }
+
+ #logo {
+  height: 60px;
+  display: block;
+ }
+
+ svg {
+  height: 70px;
  }
 
 
@@ -129,7 +136,7 @@ header {
     linear-gradient(
       to bottom, 
       rgba(0,0,0,0) 60%, 
-      rgba(0,0,0,0.8) 100%),
+      rgba(0,0,0) 100%),
     url(../img/B-hero.jpg);
   background-size: cover;
   background-position: center;

@@ -81,14 +81,17 @@ a {
   font-size: 16px;
 }
 
-
+.btn:hover {
+  background-color: rgb(184, 151, 48);
+  color: #040202;
+}
 
 /*************************************************
     HEADER
  *************************************************/
 header {
     margin: 0 auto;
-    height: 70px;
+    height: 80px;
     background-color: rgba(0, 0, 0, 0.8);
     color: rgb(184, 151, 48);
     font-family: "Ovo", serif;
@@ -99,7 +102,6 @@ header {
 }
 
   /* NAVBAR */
-
   .nav-container {
     margin: 0 auto;
     width: 80%;
@@ -110,7 +112,12 @@ header {
   list-style: none;
   align-items: center;
   justify-content: space-between;
-  height: 70px;
+  height: 80px;
+ }
+
+ .nav-container a:hover {
+  color: white;
+
  }
 
  #logo {

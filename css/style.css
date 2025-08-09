@@ -50,6 +50,12 @@ h1 {
   color: #F1E08D;
 }
 
+h2 {
+  font-family: "Ovo", serif;
+  font-size: 58px;
+  color: #F1E08D;
+}
+
 h4 {
   font-family: "Corinthia", cursive;
   font-size: 30px;
@@ -62,14 +68,17 @@ h4 {
 
 a {
   text-decoration: none;
-  color: #F1E08D;
+  color: rgb(184, 151, 48);
   font-family: "Ovo", serif;
  }
 
 
 /* BUTTONS */
 .btn {
-
+  border: 1px solid rgb(184, 151, 48);
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 14px;
 }
 
 
@@ -81,8 +90,9 @@ header {
     margin: 0 auto;
     height: 70px;
     background-color: #171717;
-    color: #F1E08D;
+    color: rgb(184, 151, 48);
     font-family: "Ovo", serif;
+    font-size: 14px;
     width: 100%;
     position: fixed;
     z-index: 1000;
@@ -109,14 +119,6 @@ header {
 /*************************************************
     MAIN
  *************************************************/
-.page-elements-container {
-  width: 70%;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
 
  /* HERO SECTION */
 .hero-section {
@@ -137,6 +139,15 @@ header {
   align-items: flex-end;
   justify-content: center;
   text-align: center;
+}
+
+.container-elements-hero-section {
+  width: 70%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .restaurant-name-and-payoff {
@@ -167,7 +178,46 @@ header {
 }
 
  /* MENU SECTION */
+.menu-section {
+  background-color: #040202;
+}
 
+.container-elements-menu-section {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.our-menu {
+  width: 50%;
+  height: 200px;
+  padding-right: 70px;
+}
+
+.our-menu-txt p {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  margin-top: 8px;
+  padding-right: 100px;
+  line-height: 1.5;
+}
+
+.our-menu-btns {
+  display: flex;
+  margin-top: 30px;
+  gap: 10px;
+}
+
+.cover-menu {
+  width: 50%;
+}
+
+.cover-menu img {
+  width: 100%;
+  display: block;
+}
 
 
  /* DINE WITH US (BOOK TABLE SECTION) */

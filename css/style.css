@@ -47,11 +47,16 @@
 h1 {
   font-family: "Ovo", serif;
   font-size: 60px;
+  color: #F1E08D;
 }
 
-.payoff {
+h4 {
   font-family: "Corinthia", cursive;
-  font-size: 20px;
+  font-size: 30px;
+  color: white;
+} 
+
+.payoff {
   margin-top: 8px;
 } 
 
@@ -106,38 +111,59 @@ header {
  *************************************************/
 .page-elements-container {
   width: 70%;
-
-  /* debug */
-  height: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
+
  /* HERO SECTION */
 .hero-section {
-  /* debug */
   height: 700px;
-  background-image: url(../img/B-hero.jpg);
+  background-image: linear-gradient(
+      rgba(0,0,0,0.4), 
+      rgba(0,0,0,0.4)),
+    linear-gradient(
+      to bottom, 
+      rgba(0,0,0,0) 60%, 
+      rgba(0,0,0,0.8) 100%),
+    url(../img/B-hero.jpg);
   background-size: cover;
   background-position: center;
 
   padding-top: 70px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   text-align: center;
 }
 
 .restaurant-name-and-payoff {
-  /* debug */
-  height: 100px;
-  background-color: cornflowerblue;
-  
-  margin-bottom: 100px;
-  
+    margin-bottom: 100px;  
 }
 
-.working-hours {
-  /* debug */
-  height: 100px;
-  background-color: rgb(151, 112, 235);
+.working-hours ul {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  margin-top: 18px;
+  font-size: 10px;
+}
+
+.working-hours li {
+  width: calc(100% / 7);
+  color: white;
+}
+
+.working-hours p {
+  color: rgb(184, 151, 48);
+  margin-bottom: 10px;
+}
+
+.working-hours time {
+  color: white;
+  font-family: "Ovo", serif;
 }
 
  /* MENU SECTION */

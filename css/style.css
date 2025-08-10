@@ -151,7 +151,9 @@ header {
 /*************************************************
     MAIN
  *************************************************/
-
+main {
+   background-color: #040202;
+}
  /* HERO SECTION */
 .hero-section {
   height: 700px;
@@ -256,12 +258,16 @@ header {
 .dine-w-us-section {
   /* debug */
   height: 600px;
-  background-image: url(../img/B-dine\ with\ us_.jpg);
+  background-image:
+            linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+            linear-gradient( to right, rgba(0,0,0,0) 60%, rgba(0,0,0) 100%),
+            url(../img/B-dine\ with\ us_.jpg);
   background-repeat: no-repeat;
   background-size: 50% auto;
   display: flex;
   align-items: center;
   background-color: #040202;
+  margin-top: 40px;
 }
 
 .txt-dine-w-us-section {

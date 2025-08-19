@@ -72,13 +72,8 @@ letter-spacing: 0.5px;
     MAIN
  ****************************/
 /* go back btn */
-/* i {
-    color: rgb(184, 151, 48);
-    background-color: red;
-    
-} */
  .go-back {
-    margin-top: 20px;
+    padding: 20px;
  }
 
 
@@ -86,6 +81,7 @@ letter-spacing: 0.5px;
     color:rgb(184, 151, 48);
     text-decoration: none;
     font-size: 16px;
+    font-family: "Ovo", serif;
  }
 
   .go-back a:hover {

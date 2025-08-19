@@ -11,14 +11,36 @@
 
 :root{
   /* font-family: ;*/
-  font-size: 18px;
+  font-size: 20px;
   color: rgb(184, 151, 48);
 }
 
-/*************************************************
-    BODY
- *************************************************/
-body {
+
+/********************************
+    MAIN
+ ********************************/
+/* go back btn */
+ .go-back {
+    padding: 20px;
+ }
+
+
+ .go-back a {
+    color:rgb(184, 151, 48);
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Ovo", serif;
+ }
+
+  .go-back a:hover {
+    color:white;
+    text-decoration: none;
+ }
+
+ /* background img */
+.bk-gr-img-container {
+    width: 100%;
+    margin: 0 auto;
     background-image: linear-gradient(
       rgba(0,0,0,0.4), 
       rgba(0,0,0,0.4)),
@@ -35,10 +57,7 @@ body {
   background-position: center;
 }
 
-/********************************
-    MAIN
- ********************************/
-main {
+.menu-container {
     margin: 0 auto;
     /* debug */
     width: 80%;
@@ -66,6 +85,10 @@ h1 {
     letter-spacing: 2px;
 }
 
+#last-menu-section {
+padding-bottom: 100px;
+}
+
 .dish-type {
     width: 50%;
     text-align: right;
@@ -77,10 +100,12 @@ h1 {
     width: 50%;
     text-align: left;
     padding-right: 90px;
+    font-family: "Ovo", serif;
 }
 
 #main-dishes {
     text-align: right;
+    padding-left: 34px;
 }
 
 #main-title {
@@ -98,22 +123,16 @@ ul {
 
 
  /***************
- DINE WITH US (BOOK TABLE SECTION) */
+ DINE WITH US (BOOK TABLE SECTION)
+ ****************/
 .dine-w-us-section {
   /* debug */
   height: 400px;
-  background-image:
-            linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-            linear-gradient( to right, rgba(0,0,0,0) 60%, rgba(0,0,0) 100%),
-            linear-gradient( to top, rgba(0,0,0,0) 60%, rgba(0,0,0) 100%),
-            linear-gradient( to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0) 100%),
-            url(../img/B-dine\ with\ us__.jpg);
   background-repeat: no-repeat;
   background-size: 50% auto;
   display: flex;
   align-items: center;
   background-color: #040202;
-  margin-top: 150px;
 }
 
 .txt-dine-w-us-section {

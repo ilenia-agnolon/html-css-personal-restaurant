@@ -17,19 +17,33 @@
 
 /* FONT */
 h1 {
-  font-family: "Montserrat", sans-serif;
   font-size: 58px;
   color: rgb(184, 151, 48);
-  text-align: center;
+  font-family: "Ovo", serif;
+  letter-spacing: 0.5px;
 }
 
+.white-txt {
+color: white;
+letter-spacing: 0.5px;
+}
+
+.gold-txt {
+    /* thank you for choosing us */
+   color: rgb(184, 151, 48);
+   text-align: center;
+   margin-top: 18px;
+  letter-spacing: 1px;
+  font-family: "Corinthia", cursive;
+  font-size: 20px;
+}
 /* BUTTON */
 .my-btn-cont {
  text-align: center;
 }
 
 .my-btn {
-  background-color: #fad97c;
+  background-color: rgb(184, 151, 48);
   padding: 6px 14px;
   border-radius: 1px;
   text-align: center;
@@ -43,35 +57,60 @@ a {
   text-decoration: none;
   color:#040202;
   font-family: "Montserrat", sans-serif;
+  font-weight: 00;
  }
 
-.btn:hover {
-  
+.my-btn:hover {
+  background-color:  #F1E08D;;
 }
-
 /*************************************************
-    MAIN
+    BODY (background img)
  *************************************************/
  body {
     background-color:  #040202;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
     margin: 0 auto;
+  background-image: linear-gradient(
+      rgba(0,0,0,0.4), 
+      rgba(0,0,0,0.4)),
+     linear-gradient(
+      to top, 
+      rgba(0,0,0,0) 60%, 
+      rgba(0,0,0) 100%),
+    linear-gradient(
+      to bottom, 
+      rgba(0,0,0,0) 60%, 
+      rgba(0,0,0) 100%),
+    url(../img/darko-pribeg-vHHWs06SiPk-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: "Montserrat", sans-serif;
  }
 
+/*************************************************
+    MAIN
+ *************************************************/
+/* background img */
+.txt-container {
+    text-align: center;
+    width: 50%;
+    margin: 40px auto;
+}
+
+/* form container */
  .container {
     color: rgb(184, 151, 48);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 50%;
-    border: 1px solid;
     padding: 40px;
-    font-family: "Ovo", serif;
- }
+}
 
- /* font size for input box */
+ /* font for input box */
  .form-label {
  font-size: 12px;
+ letter-spacing: 0.5px;
  }
 
  /* background color input box */
@@ -84,13 +123,4 @@ a {
  /* font color for placeholder */
 input {
     color: rgb(184, 151, 48);
-}
-
-
-
-/* thank you */
-p {
-   color: rgb(184, 151, 48);
-   text-align: center;
-   margin-top: 30px;
 }

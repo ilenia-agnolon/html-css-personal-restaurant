@@ -13,3 +13,84 @@
   /* font-family: ;*/
   font-size: 14px;
 }
+
+
+/* FONT */
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 58px;
+  color: rgb(184, 151, 48);
+  text-align: center;
+}
+
+/* BUTTON */
+.my-btn-cont {
+ text-align: center;
+}
+
+.my-btn {
+  background-color: #fad97c;
+  padding: 6px 14px;
+  border-radius: 1px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color:#040202;
+  font-family: "Montserrat", sans-serif;
+ }
+
+.btn:hover {
+  
+}
+
+/*************************************************
+    MAIN
+ *************************************************/
+ body {
+    background-color:  #040202;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0 auto;
+ }
+
+ .container {
+    color: rgb(184, 151, 48);
+    width: 50%;
+    border: 1px solid;
+    padding: 40px;
+    font-family: "Ovo", serif;
+ }
+
+ /* font size for input box */
+ .form-label {
+ font-size: 12px;
+ }
+
+ /* background color input box */
+ .form-control {
+  /* background-color: transparent; */
+  border: 1px solid rgb(184, 151, 48);
+  border-radius: 1px;
+ }
+
+ /* font color for placeholder */
+input {
+    color: rgb(184, 151, 48);
+}
+
+
+
+/* thank you */
+p {
+   color: rgb(184, 151, 48);
+   text-align: center;
+   margin-top: 30px;
+}

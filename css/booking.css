@@ -37,32 +37,7 @@ letter-spacing: 0.5px;
   font-family: "Corinthia", cursive;
   font-size: 20px;
 }
-/* BUTTON */
-.my-btn-cont {
- text-align: center;
-}
 
-.my-btn {
-  background-color: rgb(184, 151, 48);
-  padding: 6px 14px;
-  border-radius: 1px;
-  text-align: center;
-  display: inline-block;
-  width: 100%;
-  margin-top: 20px;
-  font-size: 12px;
-}
-
-a {
-  text-decoration: none;
-  color:#040202;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 00;
- }
-
-.my-btn:hover {
-  background-color:  #F1E08D;;
-}
 /*************************************************
     BODY (background img)
  *************************************************/
@@ -89,14 +64,36 @@ a {
   font-family: "Montserrat", sans-serif;
  }
 
-/*************************************************
+/****************************
     MAIN
- *************************************************/
+ ****************************/
+/* go back btn */
+/* i {
+    color: rgb(184, 151, 48);
+    background-color: red;
+    
+} */
+ .go-back {
+    margin-top: 20px;
+ }
+
+
+ .go-back a {
+    color:rgb(184, 151, 48);
+    text-decoration: none;
+    font-size: 16px;
+ }
+
+  .go-back a:hover {
+    color:white;
+    text-decoration: none;
+ }
+
 /* background img */
 .txt-container {
     text-align: center;
     width: 50%;
-    margin: 40px auto;
+    margin: 0 auto;
 }
 
 /* form container */
@@ -123,4 +120,31 @@ a {
  /* font color for placeholder */
 input {
     color: rgb(184, 151, 48);
+}
+
+/* BUTTON */
+.my-btn-cont {
+ text-align: center;
+}
+
+.my-btn {
+  background-color: rgb(184, 151, 48);
+  padding: 6px 14px;
+  border-radius: 1px;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 12px;
+  color:#040202;
+  text-decoration: none;
+}
+
+.my-btn a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+ }
+
+.my-btn:hover {
+  background-color:  #F1E08D;
 }

@@ -1,0 +1,200 @@
+/*************************************************
+    GENERAL RULES CSS
+ *************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+  /* font-family: ;*/
+  font-size: 18px;
+  color: rgb(184, 151, 48);
+}
+
+/*************************************************
+    BODY
+ *************************************************/
+body {
+    background-image: linear-gradient(
+      rgba(0,0,0,0.4), 
+      rgba(0,0,0,0.4)),
+     linear-gradient(
+      to top, 
+      rgba(0,0,0,0) 60%, 
+      rgba(0,0,0) 100%),
+    linear-gradient(
+      to bottom, 
+      rgba(0,0,0,0) 60%, 
+      rgba(0,0,0) 100%),
+    url(../img/harrison-chang-HvOdbplljvE-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/********************************
+    MAIN
+ ********************************/
+main {
+    margin: 0 auto;
+    /* debug */
+    width: 80%;
+    background-color:rgba(4, 2, 2, 0.5);
+}
+
+/* TITLE */
+.title {
+    /* debug */
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+    letter-spacing: 50px;
+}
+
+/* DISHES */
+.section {
+    width: 100%;
+    margin-top: 180px;
+    display: flex;
+    letter-spacing: 2px;
+}
+
+.dish-type {
+    width: 50%;
+    text-align: right;
+    padding-right: 90px;
+    font-size: 50px;
+}
+
+.dishes {
+    width: 50%;
+    text-align: left;
+    padding-right: 90px;
+}
+
+#main-dishes {
+    text-align: right;
+}
+
+#main-title {
+    text-align: left;
+}
+
+ul {
+  list-style: none;
+  line-height: 24px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 8px;
+}
+
+
+ /***************
+ DINE WITH US (BOOK TABLE SECTION) */
+.dine-w-us-section {
+  /* debug */
+  height: 400px;
+  background-image:
+            linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+            linear-gradient( to right, rgba(0,0,0,0) 60%, rgba(0,0,0) 100%),
+            linear-gradient( to top, rgba(0,0,0,0) 60%, rgba(0,0,0) 100%),
+            linear-gradient( to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0) 100%),
+            url(../img/B-dine\ with\ us__.jpg);
+  background-repeat: no-repeat;
+  background-size: 50% auto;
+  display: flex;
+  align-items: center;
+  background-color: #040202;
+  margin-top: 150px;
+}
+
+.txt-dine-w-us-section {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-info {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 16px;
+}
+
+.contact-item a {
+   display: flex;
+}
+
+.contact-item i:hover {
+  background-color: white;
+}
+
+.contact-item i {
+  font-size: 18px;
+  border: 1px solid rgb(184, 151, 48);
+  border-radius: 50px;
+  color: rgb(184, 151, 48);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+.contact-item span {
+  color: white;
+}
+
+/* __ */
+h3 {
+  font-family: "Ovo", serif;
+  font-size: 48px;
+  color: #F1E08D;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(184, 151, 48);
+  font-family: "Ovo", serif;
+ }
+
+ /* __ */
+ 
+/* BUTTONS */
+.btn {
+  border: 1px solid rgb(184, 151, 48);
+  padding: 6px 14px;
+  border-radius: 50px;
+  font-size: 16px;
+  text-align: center;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: rgb(184, 151, 48);
+  color: #040202;
+}
+
+
+#btn-dine-w-us {
+  background-color: #FAD97C;
+  color: #040202;
+}
+
+#btn-dine-w-us:hover {
+  background-color: white;
+  color: rgb(184, 151, 48);
+}

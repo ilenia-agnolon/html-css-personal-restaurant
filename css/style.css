@@ -85,6 +85,8 @@ a {
   padding: 6px 14px;
   border-radius: 50px;
   font-size: 16px;
+  text-align: center;
+  display: inline-block;
 }
 
 .btn:hover {

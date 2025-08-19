@@ -1,0 +1,15 @@
+/*************************************************
+    GENERAL RULES CSS
+ *************************************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+  /* font-family: ;*/
+  font-size: 14px;
+}

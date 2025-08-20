@@ -217,3 +217,61 @@ a {
   background-color: white;
   color: rgb(184, 151, 48);
 }
+
+/* __________________________________________________________________ */
+
+/********************************
+*********************************
+
+    RESPONSIVE
+
+*********************************
+*********************************/
+
+/* tablet */
+ @media screen and (max-width:768px) {
+
+  .section {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .dish-type {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+}
+
+  .dishes {
+    width: 100%;
+    padding: 0 40px;
+  }
+
+  #section-main-dishes {
+    flex-direction: column-reverse;
+  }
+
+  #main-title {
+    text-align: center;
+  }
+
+  #main-dishes {
+    text-align: left;
+    
+  }
+
+ }
+
+ 
+
+ /* smartphone */
+  @media screen and (max-width:480px) {
+
+   .dish-type {
+    font-size: 2rem;
+   } 
+
+  .dishes {
+    font-size: 0.6rem;
+  }
+  }

@@ -52,7 +52,7 @@
       to bottom, 
       rgba(0,0,0,0) 60%, 
       rgba(0,0,0) 100%),
-    url(../img/harrison-chang-HvOdbplljvE-unsplash.jpg);
+    url(../img/nice-plate.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -61,7 +61,7 @@
     margin: 0 auto;
     /* debug */
     width: 80%;
-    background-color:rgba(4, 2, 2, 0.5);
+    background-color:rgba(4, 2, 2, 0.8);
 }
 
 /* TITLE */
@@ -74,7 +74,7 @@
 
 h1 {
     font-size: 100px;
-    letter-spacing: 50px;
+    letter-spacing: 10px;
 }
 
 /* DISHES */
@@ -99,17 +99,19 @@ padding-bottom: 100px;
 .dishes {
     width: 50%;
     text-align: left;
-    padding-right: 90px;
+    padding-right: 50px;
+    padding-left: 90px;
     font-family: "Ovo", serif;
 }
 
 #main-dishes {
     text-align: right;
-    padding-left: 34px;
+    padding-left: 50px;
 }
 
 #main-title {
     text-align: left;
+    padding-left: 90px;
 }
 
 ul {
@@ -182,6 +184,7 @@ h3 {
   font-family: "Ovo", serif;
   font-size: 48px;
   color: #F1E08D;
+  text-align: center;
 }
 
 a {
@@ -234,6 +237,7 @@ a {
   .section {
     flex-direction: column;
     justify-content: center;
+    margin-top: 90px;
   }
 
   .dish-type {
@@ -257,21 +261,46 @@ a {
 
   #main-dishes {
     text-align: left;
-    
   }
 
+  h3 {
+    padding: 0 30px;
+  }
+
+.contact-info {
+  width: 100%;
+  justify-content: space-around;
  }
 
- 
+}
 
  /* smartphone */
   @media screen and (max-width:480px) {
 
-   .dish-type {
+
+  .title {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .dish-type {
     font-size: 2rem;
    } 
 
   .dishes {
     font-size: 0.6rem;
   }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  .contact-info {
+    padding: 0 10px;
+    font-size: 0.7rem;
+  }
+
   }

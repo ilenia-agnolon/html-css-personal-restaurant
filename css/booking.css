@@ -149,3 +149,37 @@ input {
 .my-btn:hover {
   background-color:  #F1E08D;
 }
+
+
+
+/* __________________________________________________________________ */
+
+/********************************
+*********************************
+
+    RESPONSIVE
+
+*********************************
+*********************************/
+ 
+ /* smartphone */
+  @media screen and (max-width:480px) {
+
+  .txt-container {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .white-txt {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+
+  .container {
+    width: 70%;
+  }
+
+  }

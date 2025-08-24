@@ -43,7 +43,7 @@
     margin: 0 auto;
     background-image: linear-gradient(
       rgba(0,0,0,0.4), 
-      rgba(0,0,0,0.4)),
+      rgba(255,255,255,0.2)),
      linear-gradient(
       to top, 
       rgba(0,0,0,0) 60%, 
@@ -52,7 +52,7 @@
       to bottom, 
       rgba(0,0,0,0) 60%, 
       rgba(0,0,0) 100%),
-    url(../img/nice-plate.jpg);
+    url(../img/x.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -64,12 +64,19 @@
     background-color:rgba(4, 2, 2, 0.8);
 }
 
+
 /* TITLE */
 .title {
     /* debug */
     width: 30%;
     margin: 0 auto;
     text-align: center;
+}
+
+ /* logo */
+.title img {
+  width: 80px;
+  cursor: default;
 }
 
 h1 {
@@ -102,6 +109,10 @@ padding-bottom: 100px;
     padding-right: 50px;
     padding-left: 90px;
     font-family: "Ovo", serif;
+}
+
+.dishes span {
+  color: white;
 }
 
 #main-dishes {
@@ -203,6 +214,7 @@ a {
   font-size: 16px;
   text-align: center;
   display: inline-block;
+  width: 140px;
 }
 
 .btn:hover {

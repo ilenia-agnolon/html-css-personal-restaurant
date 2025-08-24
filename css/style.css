@@ -60,6 +60,7 @@ h3 {
   font-family: "Ovo", serif;
   font-size: 48px;
   color: #F1E08D;
+  cursor: default;
 }
 
 h4 {
@@ -87,6 +88,7 @@ a {
   font-size: 16px;
   text-align: center;
   display: inline-block;
+  width: 140px;
 }
 
 .btn:hover {
@@ -140,15 +142,11 @@ header {
 
  }
 
- #logo {
-  height: 60px;
-  display: block;
- }
-
- svg {
-  height: 70px;
- }
-
+ /* logo */
+.nav-container img {
+  width: 80px;
+  cursor: default;
+}
 
 /*************************************************
     MAIN
@@ -169,12 +167,12 @@ main {
     url(../img/B-hero.jpg);
   background-size: cover;
   background-position: center;
-
   padding-top: 70px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   text-align: center;
+  cursor: default;  
 }
 
 .container-elements-hero-section {
@@ -228,15 +226,14 @@ main {
 
 .our-menu {
   width: 50%;
-  height: 200px;
-  padding-right: 70px;
+  padding-right: 40px;
+  cursor: default;
 }
 
 .our-menu-txt p {
   font-family: "Montserrat", sans-serif;
   color: white;
   margin-top: 8px;
-  padding-right: 100px;
   line-height: 1.5;
 }
 
@@ -316,7 +313,66 @@ main {
   color: white;
 }
 
- /*************************************************
-    FOOTER
- *************************************************/
 
+
+
+/* __________________________________________________________________ */
+
+/********************************
+*********************************
+
+    RESPONSIVE
+
+*********************************
+*********************************/
+
+/* tablet */
+ @media screen and (max-width:768px) {
+
+  .container-elements-hero-section {
+  width: 100%;
+  }
+
+  /* dine with us */
+  h3 {
+    padding: 0 30px;
+  }
+
+.contact-info {
+  width: 100%;
+  justify-content: space-around;
+ }
+
+ }
+
+ /*________________________________________  */
+ /* smartphone */
+  @media screen and (max-width:480px) {
+
+  .our-menu {
+  width: 80%;
+  padding: 0;
+  }
+
+  .container-elements-menu-section {
+  flex-direction: column;
+  text-align: center;
+  padding-top: 100px;
+  }
+
+  .cover-menu {
+  width: 100%;
+  margin-top: 30px;
+  }
+
+    /* dine with us */    
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  .contact-info {
+    padding: 0 10px;
+    font-size: 0.7rem;
+  }
+
+  }
